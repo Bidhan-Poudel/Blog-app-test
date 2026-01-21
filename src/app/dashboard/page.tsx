@@ -41,8 +41,8 @@ const Dashboard = () => {
                 className={`px-4 py-2 rounded-md text-sm font-medium transition
                   ${
                     currentPage === i + 1
-                      ? "bg-blue-600 text-white"
-                      : "bg-gray-200 hover:bg-gray-300"
+                      ? "bg-blue-600 text-white dark:bg-blue-500"
+                      : "bg-gray-200 text-gray-800 hover:bg-gray-300  dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700"
                   }`}
               >
                 {i + 1}
