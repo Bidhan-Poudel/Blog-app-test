@@ -34,3 +34,28 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
+## Blog App (Frontend Assignment)
+
+### Tech Stack
+- Next.js (App Router)
+- Zustand (State Management)
+- Tailwind CSS
+- React Hook Form + Yup
+- react-hot-toast
+
+### Features
+- JWT-style authentication (mock)
+- Protected routes
+- CRUD blog posts
+- Pagination
+- Dark mode
+- Form validation
+- Toast notifications
+
+### Notes
+- Authentication is mocked but follows real JWT flow
+- Token is persisted in localStorage
+- Posts are fetched from JSONPlaceholder API
